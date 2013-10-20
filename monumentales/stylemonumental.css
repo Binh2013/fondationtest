@@ -1,0 +1,76 @@
+* {margin: 0; padding: 0;}
+
+html {
+	background: #333;	/* Dark gray color */
+}
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	/*font-family: "Times New Roman", Times, sans-serif;*/
+	/*font-family: arial, sans-serif;*/
+	/*font: 12px/24px sans-serif;*/
+	margin: 0 auto;
+	max-width: 700px;
+	background-position: center;
+	text-indent: 10px;
+}
+
+/* Logo */
+h1 img {
+	width: 100%;
+}
+
+/* Titre */
+h2 {
+	color: #fc0; /* Yellow */
+	text-align: center;
+}
+
+/* Centrer image principale */
+p  a img {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* View Larger Map */
+p a {
+	color: #98f5ff; /* Cadet blue */
+	text-decoration:none; /* Enlever le souligne d'un hypertexte*/
+}
+
+/* Centrer texte */
+p {
+	color: #e3e3e3; /* Light gray color */
+	text-align: center;
+}
+
+#jaune {
+	color: #fc0; /* Yellow color */
+	font-weight: bold;
+}
+
+/* Responsive les images */
+a img {
+	max-width: 100%;
+    height:auto;
+    display:block;
+}
+
+/* Responsive Google Map */
+.map-container {
+    position: relative;
+    padding-bottom: 26.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+ 
+.map-container iframe,  
+.map-container object, 
+.map-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

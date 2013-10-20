@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fondation Armand Vaillancourt</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- Script pour jQuery slider Référence : http://responsiveslides.com/ -->
+	<link rel="stylesheet" href="responsiveslides.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="responsiveslides.min.js"></script>
+	<script>
+    // You can also use "$(window).load(function() {"
+    $(function () {
+      // Slideshow avec bouton gauche et droite transparent
+      $("#slider1").responsiveSlides({
+        auto: false,
+        pager: true,
+        nav: true,
+        speed: 500,
+        maxwidth: 800,
+        namespace: "transparent-btns"
+      });
+    });
+  </script>
+</head>
+<body>
+	<!-- Logo -->
+	<h1><img src="images/acquia_prosper_logo.png"/></h1>
+	<!-- Menu -->
+	<div class="container"><a class="toggleMenu" href="#">Menu</a>
+		<ul class="nav">
+			<li class="test"><a href="#">Portraits</a>
+				<ul>
+					<li><a href="portraits/Armand-Vaillancourt_CV2012.pdf">CURRICULUM VITAE</a></li> <!-- Caractère spécial AE (&AElig) ne fonctionne pas sur Safari -->
+					<!--<li><a href="portraits/Armand-Vaillancourt_CV2012.html">CURRICULUM VITAE</a></li>-->
+					<li><a href="#">R&eacute;flexions personnelles...</a></li> <!-- link vers une nouvelle page HTML : non implanté -->
+					<li><a href="portraits/av_aj_1960-01-24_lepetitjournal.pdf">Paul Gladu (1960</a></li>
+					<li><a href="portraits/av_aj_1963-06-01_perspectives.pdf">Guy Fournier (1963)</a></li>
+					<li><a href="portraits/av_ar_1964_vie-des-arts_35_0.pdf">Guy Viau (1964)</a></li>
+					<li><a href="portraits/av_aj_1993-12-04_ledevoir_0.pdf">M-Mich&egrave;le Cron (1993)</a></li>
+					<li><a href="portraits/av_ar_1994-12-01_canadian-forum_0.pdf">John Grande (1994)</a></li>
+					<li><a href="portraits/av_ar_1996-05-01_collectionneur_0.pdf">Guy Robert (1996)</a></li>
+					<li><a href="#">Yves Robillard (1998)</a></li> <!-- link vers une nouvelle page HTML : non implanté-->
+					<li><a href="portraits/av_aj_2000-09-20_lapresse_0.pdf">Jocelyne Lepage (2000)</a></li>
+					<li><a href="portraits/av_aj_2011-09-25_lesoleil_0.pdf">R&eacute;gis Tremblay (2011)</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Oeuvres</a>
+				<ul>
+					<li><a href="#">Oeuvres monumentales</a>
+						<ul>
+							<li><a href="monumentales/arbre-de-la-rue-durocher.html">Arbre de la rue Durocher - 1953</a></li>
+							<li><a href="monumentales/cenotaphe.html">C&eacute;notaphe de Chicoutimi - 1958</a></li>
+							<li><a href="monumentales/humain.html">L'Humain - 1963</a></li>
+							<li><a href="monumentales/force.html">La Force - 1964</a></li>
+							<li><a href="monumentales/puissance-gloire.html">Puissance et Gloire - 1965</a></li>
+							<li><a href="monumentales/souviens.html">Je me souviens - 1967</a></li>
+							<li><a href="monumentales/fontaine.html">Fontaine Vaillancourt - 1971</a></li>
+							<li><a href="monumentales/justice.html">Justice - 1983</a></li>
+							<li><a href="monumentales/aux-jeunes.html">Aux jeunes, laissons leur... - 1990</a></li>
+							<li><a href="monumentales/passerelle.html">Passerelle Vaillancourt - 1990</a></li>
+							<li><a href="monumentales/chant.html">Chant des peuples - 1996</a></li>
+							<li><a href="monumentales/coeur.html">Coeur des &Icirc;les - 2000</a></li>
+							<li><a href="monumentales/enchantement.html">L'Enchantement - 2007</a></li>
+							<li><a href="monumentales/drapeau.html">Drapeau blanc - 2008</a></li>
+							<li><a href="monumentales/collectif.html">L'&eacute;veil collectif - 2012</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Oeuvres sculpturales</a>
+						<ul>
+							<li><a href="sculpturales/bois/bois.html">Bois</a></li>
+							<li><a href="sculpturales/metal/metal.html">M&eacutetal </a>
+							<!--
+								<ul>						
+									<li><a href="sculpturales/metal/acier/acier.html">Acier</a></li>
+									<li><a href="sculpturales/metal/bronze/bronze.html">Bronze</a></li>
+									<li><a href="sculpturales/metal/fonte/fonte.html">Fonte</a></li>
+								</ul>
+							-->
+							</li>
+							<li><a href="sculpturales/beton/beton.html">B&eacute;ton </a></li>
+							<li><a href="sculpturales/mixmedia/mixmedia.html">Mix M&eacutedia </a></li>
+						</ul>
+					</li>
+					<li><a href="#">Oeuvres picturales</a>
+						<ul>
+							<li><a href="picturales/toile/toile.html">Acryliques sur toile</a></li>
+							<li><a href="picturales/papier/papier.html">Acryliques sur papier</a></li>
+							<li><a href="picturales/estampes/estampes.html">Estampes</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Oeuvres &eacute;v&eacute;nementielles</a>
+						<ul>
+							<li><a href="evenementielles/murale-du-grand-theatre-de-quebec.html">Murale du grand th&eacute;&acirc;tre de Qu&eacute;bec - 1971</a></li>
+							<li><a href="evenementielles/avenir-du-peuple-quebecois.html">Avenir du peuple qu&eacute;b&eacute;cois - 1983</a></li>
+							<li><a href="evenementielles/peinture-en-direct.html">Peinture en direct - 1984</a></li>
+							<li><a href="evenementielles/stop-madness.html">Stop the madness - 1987</a></li>
+							<li><a href="evenementielles/14-exposants-es-linspecteur-epingle.html">14 exposants (es) &agrave; l&#039;Inspecteur &Eacute;pingle - 1988</a></li>
+							<li><a href="evenementielles/la-mer-se-vide.html">La mer se vide - 2003</a></li>
+							<li><a href="evenementielles/parcodon.html">Parcodon - 2010</a></li>
+						</ul>
+					</li>
+		</ul>
+	</div>
+	<!-- Gallerie -->	<!-- Slideshow 2 -->
+	<div class="rslides_container">
+		<ul class="rslides" id="slider1">
+			<li><a href="http://www.armandvaillancourt.ca/AV2/sites/default/files/eveil_collectif_2012_0.jpg">
+					<img src="http://www.armandvaillancourt.ca/AV2/sites/default/files/eveil_collectif_2012_0.jpg"
+					alt="L&#039;éveil collectif"/></a></li>
+			<li><a href="http://www.armandvaillancourt.ca/AV2/sites/default/files/c2mtl-2012.jpg">
+					<img src="http://www.armandvaillancourt.ca/AV2/sites/default/files/c2mtl-2012.jpg"
+					alt="C2 Montréal - Griffintown"/></a></li>
+			<li><a href="http://www.armandvaillancourt.ca/AV2/sites/default/files/force-ouvriere_maq01.jpg">
+					<img src="http://www.armandvaillancourt.ca/AV2/sites/default/files/force-ouvriere_maq01.jpg"
+					alt="La force ouvrière - Hommage à Michel Chartrand"/></a></li>
+			<li><a href="http://www.armandvaillancourt.ca/AV2/sites/default/files/ast_11_48x48_2012.jpg">
+					<img src="http://www.armandvaillancourt.ca/AV2/sites/default/files/ast_11_48x48_2012.jpg"
+					alt="Acrylique sur toile #11"/></a></li>
+			<li><a href="http://www.armandvaillancourt.ca/AV2/sites/default/files/hydre-de-lerne_bronze100_2010.jpg">
+					<img src="http://www.armandvaillancourt.ca/AV2/sites/default/files/hydre-de-lerne_bronze100_2010.jpg"
+					alt="Hydre de Lerne"/></a></li>
+			<li><a href="http://www.armandvaillancourt.ca/AV2/sites/default/files/ast_120_2010_4x4.jpg">
+					<img src="http://www.armandvaillancourt.ca/AV2/sites/default/files/ast_120_2010_4x4.jpg"
+					alt="Acrylique sur papier #120"/></a></li>
+			<li><a href="http://www.armandvaillancourt.ca/AV2/sites/default/files/radeau-mdemers_2008.jpg">
+					<img src="http://www.armandvaillancourt.ca/AV2/sites/default/files/radeau-mdemers_2008.jpg"
+					alt="Le radeau"/></a></li>
+			<li><a href="http://www.armandvaillancourt.ca/AV2/sites/default/files/perseides_2003.jpg">
+					<img src="http://www.armandvaillancourt.ca/AV2/sites/default/files/perseides_2003.jpg"
+					alt="Perseides"/></a></li>
+			<li><a href="http://www.armandvaillancourt.ca/AV2/sites/default/files/revolution-du-coeur_2002.jpg">
+					<img src="http://www.armandvaillancourt.ca/AV2/sites/default/files/revolution-du-coeur_2002.jpg"
+					alt="Révolution du coeur"/></a></li>
+			<li><a href="http://www.armandvaillancourt.ca/AV2/sites/default/files/coeur-des-iles_2000_05_0.jpg">
+					<img src="http://www.armandvaillancourt.ca/AV2/sites/default/files/coeur-des-iles_2000_05_0.jpg"
+					alt="Coeur des Îles"/></a></li>
+			<li><a href="http://www.armandvaillancourt.ca/AV2/sites/default/files/etreinte_bois-acier_2000.jpg">
+					<img src="http://www.armandvaillancourt.ca/AV2/sites/default/files/etreinte_bois-acier_2000.jpg"
+					alt="L&#039;étreinte"/></a></li>
+			<li><a href="http://www.armandvaillancourt.ca/AV2/sites/default/files/expoav_c1998.jpg">
+					<img src="http://www.armandvaillancourt.ca/AV2/sites/default/files/expoav_c1998.jpg"
+					alt="Expo AV 1998"/></a></li>
+			<li><a href="http://www.armandvaillancourt.ca/AV2/sites/default/files/1977454.jpeg">
+					<img src="http://www.armandvaillancourt.ca/AV2/sites/default/files/1977454.jpeg"
+					alt="Auprès de mon arbre, je vivais heureux"/></a></li>
+			<li><a href="http://www.armandvaillancourt.ca/AV2/sites/default/files/stop-the-madness_1987_crea02.jpg">
+					<img src="http://www.armandvaillancourt.ca/AV2/sites/default/files/stop-the-madness_1987_crea02.jpg"
+					alt="Stop the madness"/></a></li>
+			<li><a href="http://www.armandvaillancourt.ca/AV2/sites/default/files/compartiment-spatial_1983_03_0.jpg">
+					<img src="http://www.armandvaillancourt.ca/AV2/sites/default/files/compartiment-spatial_1983_03_0.jpg"
+					alt="Compartiment spatial"/></a></li>
+			<li><a href="http://www.armandvaillancourt.ca/AV2/sites/default/files/appel-a-la-justice_1983.jpg">
+					<img src="http://www.armandvaillancourt.ca/AV2/sites/default/files/appel-a-la-justice_1983.jpg"
+					alt="Appel à la justice"/></a></li>
+			<li><a href="http://www.armandvaillancourt.ca/AV2/sites/default/files/vailancourt_fountain_1971.jpg">
+					<img src="http://www.armandvaillancourt.ca/AV2/sites/default/files/vailancourt_fountain_1971.jpg"
+					alt="Fontaine Vaillancourt"/></a></li>
+			<li><a href="http://www.armandvaillancourt.ca/AV2/sites/default/files/fonte_stratification-des-souvenirs_1967_01_0.jpg">
+					<img src="http://www.armandvaillancourt.ca/AV2/sites/default/files/fonte_stratification-des-souvenirs_1967_01_0.jpg"
+					alt="Stratification des souvenirs"/></a></li>
+			<li><a href="http://www.armandvaillancourt.ca/AV2/sites/default/files/dragon_1966.jpg">
+					<img src="http://www.armandvaillancourt.ca/AV2/sites/default/files/dragon_1966.jpg"
+					alt="Dragon"/></a></li>
+			<li><a href="http://www.armandvaillancourt.ca/AV2/sites/default/files/force_1964_prenestp_2012_08.jpg">
+					<img src="http://www.armandvaillancourt.ca/AV2/sites/default/files/force_1964_prenestp_2012_08.jpg"
+					alt="La Force"/></a></li>
+			<li><a href="http://www.armandvaillancourt.ca/AV2/sites/default/files/bb_mbaq_1959.jpg">
+					<img src="http://www.armandvaillancourt.ca/AV2/sites/default/files/bb_mbaq_1959.jpg"
+					alt="Bois brûlé 1 - sans titre"/></a></li>
+			<li><a href="http://www.armandvaillancourt.ca/AV2/sites/default/files/ecran-bois_1957.jpg">
+					<img src="http://www.armandvaillancourt.ca/AV2/sites/default/files/ecran-bois_1957.jpg"
+					alt="Sculpture murale"/></a></li>
+			<li><a href="http://www.armandvaillancourt.ca/AV2/sites/default/files/fonte_rouillee_1955_01_0.jpg">
+					<img src="http://www.armandvaillancourt.ca/AV2/sites/default/files/fonte_rouillee_1955_01_0.jpg"
+					alt="Fonte rouillé"/></a></li>
+		</ul>
+	</div>
+<!--  title="" width="400" height="300" -->
+	<!-- Script pour menu -->
+	<!-- Doit être placé à la fin (avant </body>), sinon le menu ne fonctionne pas -->
+	<!-- Aucune explication  -->
+	<!-- Référence : http://webdesign.tutsplus.com/tutorials/site-elements/big-menus-small-screens-responsive-multi-level-navigation/-->
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+* {margin: 0; padding: 0;}
+
+html {
+	background: #333;	/* Dark gray color */
+}
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	/*font-family: "Times New Roman", Times, sans-serif;*/
+	/*font-family: arial, sans-serif;*/
+	/*font: 12px/24px sans-serif;*/
+	margin: 0 auto;
+	max-width: 700px;
+	background-position: center;
+	text-indent: 10px;
+	/*margin-left: 10px;*/
+}
+
+/* Logo */
+h1 img {
+	width: 100%;
+}
+
+/* Titre */
+h2 {
+	color: #fc0; /* Yellow */
+	text-align: center;
+}
+
+/* Centrer image principale */
+p  a img {
+	/*width: 100%;
+	background-position: center;*/
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Centrer le tableau */
+table.tableau {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#jaune {
+	color: #fc0; /* Yellow color */
+	font-weight: bold;
+}
+
+p {
+	color: #e3e3e3; /* Light gray color */
+	text-align: center;
+}
+
+/* Traiter le hypertexte */
+a {
+	text-decoration:none; /* Enlever le souligne d'un hypertexte*/
+	color: #fc0; /* Yellow color */
+}
+
+/* Responsive les images */
+a img {
+	max-width: 100%;
+    height:auto;
+    display:block;
+}
+
+/* Responsive le tableau des images */
+.division-tableau {
+	display: table;
+	table-layout: fixed;
+}
+
+.division-tableau div {
+	display: table-cell;
+	padding: 15px;
+	width: 200px;
+}
+
+div a img {
+	width: 100%;
+}
+
+div a {
+	width: 100%;
+}
